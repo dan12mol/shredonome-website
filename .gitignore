@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Build artifacts (keep these out of the website repo)
+# The release files are large binary files that will be deployed separately
+# or can be hosted via GitHub Releases
+release/
+
+# Editor files
+.vscode/
+.idea/
