@@ -1,9 +1,7 @@
 # macOS
 .DS_Store
 
-# Build artifacts (keep these out of the website repo)
-# The release files are large binary files that will be deployed separately
-# or can be hosted via GitHub Releases
+# Release files are hosted on GitHub Releases, not in the repo
 release/
 
 # Editor files
