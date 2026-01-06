@@ -157,7 +157,7 @@
 
         <div class="download-buttons">
           <a
-            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.2/Shredonome-1.1.2-universal.dmg"
+            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.3/Shredonome-1.1.3-universal.dmg"
             class="download-button mac"
             onclick="posthog.capture('download_clicked', { platform: 'macOS', version: '1.0.6', file_type: 'dmg' })"
           >
@@ -169,7 +169,7 @@
           </a>
 
           <a
-            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.2/Shredonome-1.1.2-Setup.exe"
+            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.3/Shredonome-1.1.3-Setup.exe"
             class="download-button windows"
             onclick="posthog.capture('download_clicked', { platform: 'Windows', version: '1.1.0', file_type: 'exe' })"
           >
@@ -181,9 +181,9 @@
           </a>
 
           <a
-            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.2/Shredonome-1.1.2.AppImage"
+            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.3/Shredonome-1.1.3.AppImage"
             class="download-button linux"
-            onclick="posthog.capture('download_clicked', { platform: 'Linux', version: '1.0.6', file_type: 'AppImage' })"
+            onclick="posthog.capture('download_clicked', { platform: 'Linux', version: '1.1.2', file_type: 'AppImage' })"
           >
             <span class="platform-icon">🐧</span>
             <div class="download-info">
@@ -191,9 +191,21 @@
               <span class="file-type">.AppImage</span>
             </div>
           </a>
+
+          <a
+            href="https://github.com/dan12mol/shredonome-website/releases/download/v1.1.2/shredonome-1.1.2.tar.gz"
+            class="download-button linux"
+            onclick="posthog.capture('download_clicked', { platform: 'Linux', version: '1.1.2', file_type: 'tar.gz' })"
+          >
+            <span class="platform-icon">🐧</span>
+            <div class="download-info">
+              <span class="platform-name">Linux</span>
+              <span class="file-type">.tar.gz</span>
+            </div>
+          </a>
         </div>
 
-        <p class="version-info">Current version: 1.1.2</p>
+        <p class="version-info">Current version: 1.1.3</p>
       </div>
     </section>
 
